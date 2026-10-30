@@ -164,6 +164,9 @@ p{margin:0}
 .buy.bulk .price li{border-bottom-color:color-mix(in srgb,var(--on-navy) 30%,transparent)}
 .price.need li::before{content:"✓";color:var(--accent);font-weight:800;margin-right:8px}
 .price.need li{justify-content:flex-start}
+.acct .acct-pay{display:grid;gap:4px;margin-top:14px;padding-top:14px;border-top:1px dashed var(--line)}
+.acct .acct-pay span{font-size:13.5px;color:var(--muted)}
+.acct .acct-pay b{color:var(--ink);font-family:var(--display);font-size:clamp(20px,2.6vw,24px);font-variant-numeric:tabular-nums;user-select:all}
 .acct a.tel{color:var(--ink);text-decoration:none}
 .acct .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
 .acct a.mail{display:inline-block;margin-top:8px;border:1px solid var(--accent);color:var(--accent);border-radius:999px;font:600 13px var(--body);padding:5px 12px;text-decoration:none}
@@ -470,6 +473,11 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
         <div class="btns">
           <a class="mail" href="mailto:pastor21cc@naver.com?subject=%EB%8B%A8%EC%B2%B4%20%EA%B5%AC%EC%9E%85%20%EB%AC%B8%EC%9D%98">이메일 보내기</a>
           <button class="copy dark" type="button" data-copy="010-4928-5271">번호 복사</button>
+        </div>
+        <div class="acct-pay">
+          <span>입금 계좌 · 카카오뱅크</span>
+          <b>3333-03-9417544</b>
+          <button class="copy dark" type="button" data-copy="3333039417544">계좌번호 복사</button>
         </div>
       </div>
     </div>
