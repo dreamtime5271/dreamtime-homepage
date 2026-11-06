@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dreamtime-homepage.vercel.app/sitemap.xml
