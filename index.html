@@ -981,12 +981,12 @@ document.getElementById('cases').addEventListener('click',e=>{const b=e.target.c
  [document.querySelector('.hero .cta-row'),document.getElementById('contact')].forEach(el=>el&&io.observe(el));})();
 
 const SHORTS=[
- ["7ae_vYiMgZM","사람들 앞에서 이 한마디면 내 편이 됩니다"],
- ["wJAtXdIB9HQ","방 치우라고 100번 말해도 안 하던 아이가 움직인 이유"],
- ["AlfjSgZXFuY","사람이 모이는 사람은 매일 '이 말'을 합니다"],
- ["jcT0DJn-ioI","\"당장 해!\" 강하게 말할수록 사람들이 떠나는 이유"],
- ["a5V_RnnHQQM","\"왜 그렇게 예민해?\"라고 묻는 사람들의 심리"],
- ["SGYR2li5N-U","1억을 날린 30대 신혼부부, 무슨 일이 있었을까"]
+ ["8O_GGOnyhsE","말을 더듬어 비웃음당하던 24년, 저를 꺼내주신 분"],
+ ["UX_ySMLBesE","회개가 습관이 됐다면 꼭 들어보세요"],
+ ["-CHt5yuQFII","오늘 딱 한 번만 멈춰 보세요"],
+ ["xmK1q5BsNbY","기도하고 집에 가서 이러면 은혜가 사라집니다"],
+ ["yq9MxKuztow","대화 중 끼어들기는 운전하는 사람의 핸들을 빼앗는 일입니다"],
+ ["ORELtgzQNFE","전도가 어렵다면 이것부터 하세요"]
 ];
 document.getElementById('shorts').innerHTML=SHORTS.map(([id,t])=>`<a class="short" href="https://www.youtube.com/shorts/${id}" target="_blank" rel="noopener"><span class="th"><img src="https://i.ytimg.com/vi/${id}/oardefault.jpg" alt="" loading="lazy" onerror="if(!this.dataset.f){this.dataset.f=1;this.src='https://i.ytimg.com/vi/${id}/mqdefault.jpg'}else{this.remove()}"><em>${t}</em></span></a>`).join('');
 document.querySelectorAll('[data-aud]').forEach(b=>b.addEventListener('click',()=>{showProg(b.dataset.aud);document.getElementById('programs').scrollIntoView({behavior:'smooth'});}));
